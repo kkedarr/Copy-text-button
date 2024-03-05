@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#myText {
+    width: 9rem;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 0.15rem ;
+}
+
+.btn {
+    width: 5rem;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #363434;
+}
+
+#clipboard {
+    width: 70px;
+    margin: 50px;
+    background-color: #0066ff;
+    color: #ffffff;
+    padding: 20px;
+    font-size: large;
+}
